@@ -1,6 +1,5 @@
-# Satalay
+Setting up Hadoop to AWS EC2 and Running a sample mapreduce
 
-# Setting up Hadoop to AWS EC2 and running a sample mapreduce
 ### 1- Login to AWS and launch an instance
 <img width="1233" alt="1" src="https://user-images.githubusercontent.com/91700155/155763011-3394af20-a088-40a1-8b7b-947ac74644af.png">
 
