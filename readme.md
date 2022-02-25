@@ -79,7 +79,7 @@ sudo apt install openjdk-8-jdk
 ### 17- Download and Install Hadoop
 #### Go to Hadoop -> Downloads page
 <img width="1338" alt="23" src="https://user-images.githubusercontent.com/91700155/155763798-8fafaa38-7baf-4603-aa53-d65fa4331cea.png">
-<img width="1680" alt="24" src="https://user-images.githubusercontent.com/91700155/155763812-4a874031-e993-44fc-a088-df52c4c4c246.png">
+<img width="1673" alt="24" src="https://user-images.githubusercontent.com/91700155/155765966-43a93163-5b04-4a42-8dbd-1e9b9b087530.png">
 
 #### Install and extract the package
 ```console
