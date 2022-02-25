@@ -273,7 +273,7 @@ sudo nano $HADOOP_CONF_DIR/hdfs-site.xml
 ```
 
 <img width="872" alt="Ekran Resmi 2022-02-25 02 22 40" src="https://user-images.githubusercontent.com/91700155/155764405-c503fc8d-7cfd-45d7-a976-f0bc43eaf4a5.png">
-<img width="865" alt="Ekran Resmi 2022-02-25 02 23 02" src="https://user-images.githubusercontent.com/91700155/155764439-44430c9c-12db-4c66-ba07-c34a922994fb.png">
+<img width="799" alt="Ekran Resmi 2022-02-25 02 23 02" src="https://user-images.githubusercontent.com/91700155/155767413-891ce556-2d65-43a5-ba22-98aba2c3b898.png">
 
 
 #### Make namenode and datanode directories
