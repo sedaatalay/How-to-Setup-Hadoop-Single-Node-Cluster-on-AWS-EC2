@@ -99,7 +99,7 @@ sudo mv /usr/local/hadoop-* /usr/local/hadoop
 ```console
 nano ~/.bashrc
 ```
-##### Write into
+##### Write into:
 ```console
 export HADOOP_HOME=/usr/local/hadoop
 export HADOOP_INSTALL=$HADOOP_HOME
@@ -120,7 +120,6 @@ source ~/.bashrc
 <img width="1190" alt="Ekran Resmi 2022-02-25 01 46 52" src="https://user-images.githubusercontent.com/91700155/155763954-98a86040-f51a-4849-b851-1638391dfb6f.png">
 
 #### Open hadoop-env.sh from $HADOOP_CONF_DIR
-$
 ```console
 sudo nano $HADOOP_CONF_DIR/hadoop-env.sh
 ```
@@ -157,7 +156,7 @@ cp <pem file name> ~/.ssh/
 ```console
 nano ~/.ssh/config
 ```
-##### Write into
+##### Write into:
 ```console
 Host hadoop
   HostName <publicDnsname>
@@ -198,7 +197,7 @@ sudo nano /etc/hosts
 ```console
 sudo nano $HADOOP_CONF_DIR/core-site.xml
 ```
-##### Write into
+##### Write into:
 ```console
 <configuration>
   <property>
@@ -214,7 +213,7 @@ sudo nano $HADOOP_CONF_DIR/core-site.xml
 ```console
 sudo nano $HADOOP_CONF_DIR/yarn-site.xml
 ```
-##### Write into
+##### Write into:
 ```console
 <configuration>
   <property>
@@ -235,7 +234,7 @@ sudo nano $HADOOP_CONF_DIR/yarn-site.xml
 ```console
 sudo cp $HADOOP_CONF_DIR/mapred-site.xml.template $HADOOP_CONF_DIR/mapred-site.xml
 ```
-##### Write into
+##### Write into:
 ```console
 <configuration>
   <property>
@@ -255,7 +254,7 @@ sudo cp $HADOOP_CONF_DIR/mapred-site.xml.template $HADOOP_CONF_DIR/mapred-site.x
 ```console
 sudo nano $HADOOP_CONF_DIR/hdfs-site.xml
 ```
-##### Write into
+##### Write into:
 ```console
 <configuration>
   <property>
