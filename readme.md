@@ -111,7 +111,6 @@ export HADOOP_HDFS_HOME=$HADOOP_HOME
 export YARN_HOME=$HADOOP_HOME
 export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
-$
 ```
 <img width="1192" alt="Ekran Resmi 2022-02-25 01 44 56" src="https://user-images.githubusercontent.com/91700155/155763920-1906e25a-b90e-424a-ad7c-2c32a11103af.png">
 
@@ -125,7 +124,6 @@ source ~/.bashrc
 $
 ```console
 sudo nano $HADOOP_CONF_DIR/hadoop-env.sh
-$
 ```
 <img width="1122" alt="Ekran Resmi 2022-02-25 01 53 17" src="https://user-images.githubusercontent.com/91700155/155763988-9b322ca9-2ab8-4df9-ac79-e7655f30661a.png">
 <img width="1259" alt="Ekran Resmi 2022-02-25 01 50 01" src="https://user-images.githubusercontent.com/91700155/155764001-2f2005db-c068-4c9d-a249-264253e38ee2.png">
@@ -174,7 +172,6 @@ Host hadoop
 ```console
 scp ~/.ssh/config hadoop:~/.ssh
 $ scp ~/.ssh/*.pem hadoop:~/.ssh
-$
 ```
 
 <img width="1221" alt="Ekran Resmi 2022-02-25 02 11 45" src="https://user-images.githubusercontent.com/91700155/155764149-6c116d77-d0e5-4098-a6e6-cf6aa606a1bb.png">
@@ -201,7 +198,6 @@ sudo nano /etc/hosts
 #### Edit core-site.xml
 ```console
 sudo nano $HADOOP_CONF_DIR/core-site.xml
-$
 ```
 ##### Write into
 ```console
@@ -218,7 +214,6 @@ $
 #### Edit yarn-site.xml
 ```console
 sudo nano $HADOOP_CONF_DIR/yarn-site.xml
-$
 ```
 ##### Write into
 ```console
@@ -260,7 +255,6 @@ sudo cp $HADOOP_CONF_DIR/mapred-site.xml.template $HADOOP_CONF_DIR/mapred-site.x
 #### Edit hdfs-site.xml
 ```console
 sudo nano $HADOOP_CONF_DIR/hdfs-site.xml
-$
 ```
 ##### Write into
 ```console
@@ -292,7 +286,6 @@ sudo mkdir -p $HADOOP_HOME/data/hdfs/datanode
 #### Change the owner 
 ```console
 sudo chown -R ubuntu $HADOOP_HOME
-$
 ```
 #### Change masters and slaves to hadoop
 ```console
@@ -309,21 +302,18 @@ sudo nano $HADOOP_HOME/slaves
 ```console
 hdfs namenode -format
 $HADOOP_HOME/sbin/start-dfs.sh
-$ 
 ```
 <img width="983" alt="Ekran Resmi 2022-02-25 02 58 10" src="https://user-images.githubusercontent.com/91700155/155764527-6391a4b9-3f7e-4202-adb1-4518bdb2187b.png">
 
 #### Start yarn
 ```console
 $HADOOP_HOME/sbin/start-yarn.sh
-$
 ```
 <img width="1000" alt="Ekran Resmi 2022-02-25 02 59 40" src="https://user-images.githubusercontent.com/91700155/155764560-f23b9a35-5ee6-4617-89a3-831a9349f73b.png">
 
 #### Start the job history server
 ```console
 $HADOOP_HOME/sbin/mr-jobhistory-daemon.sh start historyserver
-$
 ```
 #### To see the Java processes
 ```console
@@ -363,7 +353,6 @@ hdfs dfs -put input WordCount/input
 ### Running MapReduce
 ```console
 hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.8.5.jar wordcount WordCount/input WordCount/output
-$
 ```
 <img width="1010" alt="Ekran Resmi 2022-02-25 03 05 19" src="https://user-images.githubusercontent.com/91700155/155764751-f05a131c-ccff-4842-9ec3-99ac350ee86a.png">
 
