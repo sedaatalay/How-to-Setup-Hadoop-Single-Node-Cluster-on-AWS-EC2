@@ -292,7 +292,6 @@ sudo nano $HADOOP_HOME/slaves
 ```
 
 <img width="869" alt="Ekran Resmi 2022-02-25 02 23 43" src="https://user-images.githubusercontent.com/91700155/155764463-2ac28915-61c7-4484-9290-0c578d5d482f.png">
-<img width="867" alt="Ekran Resmi 2022-02-25 02 24 04" src="https://user-images.githubusercontent.com/91700155/155764476-7157698a-b13e-4f2f-b264-e97df77291db.png">
 <img width="870" alt="Ekran Resmi 2022-02-25 02 24 24" src="https://user-images.githubusercontent.com/91700155/155764491-4f1c76b8-9c2e-49a3-8584-d4697ebeeab0.png">
 
 ### Launch Hadoop Cluster 
