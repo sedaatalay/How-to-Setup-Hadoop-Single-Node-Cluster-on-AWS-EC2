@@ -169,7 +169,7 @@ Host hadoop
 #### Copy the config and pem files to Instance .ssh directory
 ```console
 scp ~/.ssh/config hadoop:~/.ssh
-$ scp ~/.ssh/*.pem hadoop:~/.ssh
+scp ~/.ssh/*.pem hadoop:~/.ssh
 ```
 
 <img width="1221" alt="Ekran Resmi 2022-02-25 02 11 45" src="https://user-images.githubusercontent.com/91700155/155764149-6c116d77-d0e5-4098-a6e6-cf6aa606a1bb.png">
